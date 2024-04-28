@@ -12,4 +12,5 @@ WORKDIR /app
 
 RUN go build -o ./bin/app
 
+RUN mkdir -p /app/images
 CMD [ "./bin/app" ]
